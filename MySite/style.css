@@ -1,0 +1,170 @@
+/*gimana cara menghilangkan jarak diatas*/
+/*bcs default h1 dan body nya ada margin harus kita ubah*/
+body{
+	color: darkslategrey;
+	margin: 0;
+	text-align: center; /*kalo ga ada width semuanya ke tengah*/
+	font-family: 'Chilanka', cursive;
+	position: relative;
+}
+
+h1 {
+	font-size: 3.5em;
+	width: 100%; /*kl ada width pake margin*/
+	margin: 0 auto 0 auto;/* atau 0 auto aja */
+	color: thistle;
+	font-family: 'Sacramento', cursive;
+	font-weight: bolder;
+	line-height: 1.5;
+}
+h2{
+	color: darkseagreen;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 2.5rem;
+	padding-bottom: 10px;
+}
+h3{
+	color: cadetblue;
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	line-height: 2;
+}
+a{
+	color: cornflowerblue;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+a:hover{
+	color: lavenderblush;
+}
+.skills a:hover{
+	color: lightblue;
+}
+.top-container p{
+	color: peachpuff;
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	line-height: 1;
+}
+.top-container img {
+	margin-top: -10px;
+}
+.top-container{
+	/* background-image: url(img/pinkSky.jpg);
+	background-repeat: no-repeat; */
+	margin: 0;
+	background-color: darkslategrey;
+	height: 700px;
+	width: 100%;
+	position: relative;
+}
+span{
+	text-decoration: underline;
+}
+.intro{
+	width: 30%;
+	margin: 2% auto;
+}
+.middle-container img{
+	border-radius: 50%;
+	margin: 3% auto 1% auto;
+}
+.middle-container{
+	background-color: aliceblue;
+	padding-bottom: 2%;
+}
+.bottom-container{
+	background-color: teal;
+	bottom: 0;
+	width: 100%;
+	height: 4%;
+	position: absolute;
+	padding-top: 2%;
+}
+.bottom-container p{
+	color: peachpuff;
+	font-size: 1rem;
+	padding-top: 1%;
+}
+.skills {
+	margin: 1% auto 1% auto;
+	line-height: 2; 
+}
+hr{
+	border-style: none;
+	border-top-style: dotted;
+	border-color: thistle;
+	border-width: 10px;
+	width: 6%;
+}
+
+.btn {
+  background: #e3c4ff;
+  background-image: -webkit-linear-gradient(top, #e3c4ff, #c987ff);
+  background-image: -moz-linear-gradient(top, #e3c4ff, #c987ff);
+  background-image: -ms-linear-gradient(top, #e3c4ff, #c987ff);
+  background-image: -o-linear-gradient(top, #e3c4ff, #c987ff);
+  background-image: linear-gradient(to bottom, #e3c4ff, #c987ff);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: 'Montserrat' , sans-serif;
+  color: #fff2f2;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b5e3ff;
+  background-image: -webkit-linear-gradient(top, #b5e3ff, #87c9f5);
+  background-image: -moz-linear-gradient(top, #b5e3ff, #87c9f5);
+  background-image: -ms-linear-gradient(top, #b5e3ff, #87c9f5);
+  background-image: -o-linear-gradient(top, #b5e3ff, #87c9f5);
+  background-image: linear-gradient(to bottom, #b5e3ff, #87c9f5);
+  text-decoration: none;
+}
+/* 
+
+body{
+	color: aliceblue;
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather',serif;
+}
+h1{
+	color: teal;
+	font-size: 5.625rem;
+	margin: 50px auto 0 auto;
+	font-family: 'Sacramento', cursive;
+}
+
+h2{
+	color: lightseagreen;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	font-weight: normal;
+	padding-bottom: 10px;
+
+}
+h3{
+	color: thistle;
+	position: relative;
+	padding-top: 100px;
+}
+ 
+.top-container{
+	background-color: ivory;
+	position: relative;
+	padding-top: 100px;
+}
+
+.middle-container{
+	margin: 100px 0;
+}
+ */
+/*basic box model*/
